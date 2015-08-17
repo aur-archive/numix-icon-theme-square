@@ -1,0 +1,20 @@
+pkgbase = numix-icon-theme-square
+	pkgdesc = Square icon expansion theme from the Numix project
+	pkgver = 2014.11.10
+	pkgrel = 1
+	url = http://numixproject.org/
+	install = numix-icon-theme-square.install
+	arch = any
+	license = custom
+	makedepends = unzip
+	depends = numix-icon-theme-git
+	optdepends = faenza-icon-theme: fallback icons
+	noextract = numix_square_icons.zip
+	options = !strip
+	source = numix_square_icons.zip
+	source = fixtheme.patch
+	sha256sums = 4384bb65701778d6bbdaf1f436321f43804870ecda22baecc2ed9995d8654a8e
+	sha256sums = ae3762c9767e7c42465016dd4b254858fabf87d6eda587ff91cb7b7150bffbdd
+
+pkgname = numix-icon-theme-square
+
